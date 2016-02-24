@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=JiaguCoin
+Comment=JiaguCoin P2P Cryptocurrency
+Comment[fr]=JiaguCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=JiaguCoin, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/JiaguCoin-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoin80.xpm
+MimeType=x-scheme-handler/JiaguCoin;
+Categories=Office;

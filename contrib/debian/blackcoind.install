@@ -1,0 +1,2 @@
+debian/bin/JiaguCoind usr/bin
+src/JiaguCoind usr/lib/JiaguCoin

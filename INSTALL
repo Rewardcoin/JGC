@@ -1,0 +1,9 @@
+Building JiaguCoin
+
+See doc/readme-qt.rst for instructions on building JiaguCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of JiaguCoin.
+
+See doc/build-*.txt for instructions on building JiaguCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of JiaguCoin.
