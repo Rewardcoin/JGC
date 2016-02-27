@@ -991,6 +991,10 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
 {
 	
     int64_t nSubsidy = 0 * COIN;
+	if (pindexBest->nHeight+1 >= 0 && pindexBest->nHeight+1 <= 2129)
+        nSubsidy = 0 * COIN;
+    else if(pindexBest->nHeight+1 >= 2130)
+        nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);
 	
 	if (fDebug && GetBoolArg("-printcreation", false))
     LogPrint("creation", "GetProofOfStakeReward(): create=%s nCoinAge=%d\n", FormatMoney(nSubsidy), nCoinAge);
